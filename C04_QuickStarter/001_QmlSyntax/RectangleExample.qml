@@ -20,4 +20,12 @@ Rectangle {
         horizontalAlignment: Text.AlignHCenter
         text: qsTr("Triangle")
     }
+
+    Text {
+        y: triangle.y + triangle.height + 200
+        width: root.width
+        color: "blue"
+        horizontalAlignment: Text.AlignHCenter
+        text: qsTr("Triangle")
+    }
 }
