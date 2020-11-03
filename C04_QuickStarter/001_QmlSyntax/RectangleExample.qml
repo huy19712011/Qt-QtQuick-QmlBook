@@ -12,4 +12,12 @@ Rectangle {
         source: "triangle_red.png"
         anchors.centerIn: parent
     }
+
+    Text {
+        y: triangle.y + triangle.height + 20
+        width: root.width
+        color: "red"
+        horizontalAlignment: Text.AlignHCenter
+        text: qsTr("Triangle")
+    }
 }
